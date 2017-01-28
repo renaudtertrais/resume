@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.clearfix {
+  @extend %clearfix;
+}
+
+body {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: $color__font;
+  background-color: $bg-color;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+a {
+  color: $color__font;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    opacity: .9;
+    text-decoration: underline;
+  }
+}

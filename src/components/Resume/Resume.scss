@@ -1,0 +1,21 @@
+@import "../../style/inc";
+
+.Resume {
+  width: 210mm;
+  margin: auto;
+  // padding: 10mm;
+  // height: 297mm;
+}
+
+.Resume__section-title {
+  margin: 20px 0 10px;
+
+  span {
+    display: inline-block;
+    background-color: $color__secondary;
+    font-size: 11pt;
+    text-transform: uppercase;
+    color: $bg-color;
+    padding: 2px 4px 1px;
+  }
+}

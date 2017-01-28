@@ -1,0 +1,51 @@
+projects:
+  -
+    name: yambda
+    url: github.com/renaudtertrais/yambda
+    desc: |
+      A library of javascript functions useful for
+      **functioannal programing**.
+
+  -
+    name: JSPlayground
+    url: github.com/renaudtertrais/JSPlayground
+    desc: |
+      A **javascript playground** to test snippet with
+      real time evaluation of the code.
+
+  -
+    name: Gear
+    url: github.com/renaudtertrais/gear
+    desc: |
+      A **front-end framework** based on flexibility,
+      a collection of **sass mixins** with options and parameters.
+
+  -
+    name: jQuery.pinOn
+    url: github.com/renaudtertrais/jquery.pinOn
+    desc: |
+      A **jQuery plugin** that allow **positioning** a child
+      relative to its parent.
+      Could be very useful for **tooltips** for example.
+
+  -
+    name: Plugin.js
+    url: github.com/renaudtertrais/Plugin.js
+    desc: |
+      A lightweight (0.5kb) **jQuery plugins bootstrap** that
+      allows you to build very easily **basic & advanced** jQuery plugins.
+
+  # objectJs:
+  #   name: Object.js
+  #   desc: |
+  #     Give an extend capacity to Object class.;;
+  #     The idea is to **facilate OOP in javascript** :;;
+  #     `var MySubClass = MyClass.extend({...})`
+  #   url: github.com/renaudtertrais/Object.js
+
+  -
+    name: fasterPHP
+    url: github.com/renaudtertrais/fasterPHP
+    desc: |
+      A tiny library PHP which give acess to
+      an **ORM** to manipulate a MySQL DB, a **uploads** and a **mail** helpers.
