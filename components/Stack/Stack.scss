@@ -1,0 +1,19 @@
+.Stack__item {
+  line-height: 15px;
+  padding: 5px;
+  padding-right: 10px;
+  background: rgba(black, .05);
+  border-bottom: 1px solid rgba(black, .1);
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.Stack__image {
+  vertical-align: middle;
+  text-align: center;
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
+  display: inline-block;
+}

@@ -1,0 +1,36 @@
+$spacing-unit: 7mm;
+
+$github-red                 : #D14;
+$github-green               : #008080;
+
+$flat-ui-gray-ultra-light   : #ECF0F1;
+$flat-ui-gray-light         : #BDC3C7;
+$flat-ui-gray               : #95A5A6;
+$flat-ui-green              : #16A085;
+$flat-ui-blue-gray          : #34495E;
+$flat-ui-blue-gray-dark     : #2C3E50;
+$flat-ui-blue               : #3498DB;
+$flat-ui-blue-dark          : #2980B9;
+
+// $bg-color                   : $flat-ui-gray-ultra-light;
+
+$color__primary           : $github-red;
+$color__secondary         : $flat-ui-blue-gray;//$github-green;
+$color__main              : $flat-ui-blue-gray;
+$color__main--light       : lighten($color__main, 40%);
+$color__main--ultra-light : lighten($color__main, 65%);
+$bg-color                 : $color__main--ultra-light;
+$bg-darker                : darken($bg-color, 10%);
+$color__font              : $color__main;
+
+%clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
