@@ -19,6 +19,7 @@ export default merge.smart(
   rule(/\.ya?ml/, 'json-loader', 'yaml-loader'),
   rule(/\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)$/, 'file-loader'),
   copy('./src/assets'),
+  copy('./README.md'),
   extensions('.js', '.jsx', '.json'),
   devServer('localhost:3000'),
 );
