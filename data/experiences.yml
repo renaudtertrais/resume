@@ -1,13 +1,13 @@
 experiences:
   -
-    company: Nestlé - Nespresso
+    company: Nestlé - Nespresso HQ
     location: "Lausanne, Switzerland"
     start: 2016-06-01
     job: Senior Front-end developer
     contract: permanent
     desc: |
       I worked on two different projects. The first one was to add **accessibilty** on the existing
-      Nespresso website. The aim was to follow pattern and rules in order to make it usable for
+      Nespresso website. The aim was to follow patterns and rules in order to make it usable for
       everyone including blind people for example.
 
       Before, Nespresso was using a dedicated mobile website but they wanted a unique across devices
@@ -19,11 +19,11 @@ experiences:
       - Bootstrap the responsive website front-end
       - Research and develoment in order to find solutions to specifications
       - Implements features regarding specifications and solutions found
-      - Add tests and resove bugs
+#      - Add tests and resove bugs
 
-      **Realisations:**
-      - Accessibility on the Nespresso website
-      - Responsive behavior on the Nesspresso website
+#      **Realisations:**
+#      - Accessibility on the Nespresso website
+#      - Responsive behavior on the Nesspresso website
 
     stack:
       - html-5
@@ -63,11 +63,11 @@ experiences:
       - Discuss with the designer on the best way to add the chosen features
       - Implement the mockups of the designer
       - Add interactivity to the user interface
-      - Resolve bugs and improve efficency
+#      - Resolve bugs and improve efficency
 
-      **Realisations:**
-      - 3 web-apps (Meteor, NodeJS, ReactJS, Coffescript, Less, Sass, Webpack...)
-      - a mobile App (Meteor, Cordova, React, React Native, Coffescript, Sass...)
+#      **Realisations:**
+#      - 3 web-apps (Meteor, NodeJS, ReactJS, Coffescript, Less, Sass, Webpack...)
+#      - a mobile App (Meteor, Cordova, React, React Native, Coffescript, Sass...)
 
     stack:
       - html-5
@@ -107,22 +107,23 @@ experiences:
       experience**. One of my main focus was to improve **modularity**
       and consistency of **visual components**.
 
-      Because the target of this social network could be everybody,
-      we needed to test features and design choices. Analysing those
-      tests helped us to improve the interface in order to fit
-      the users preferences.
-
       **Tasks:**
       - Take part to discussions on the improvements and features to add
       - Discuss with the designer on the best way to add the chosen features
       - Implement the mockups of the designer
       - Analysing tests on features and design choices
       - Add interactivity to the user interface
-      - Resolve bugs and improve efficency
 
-      **Realisations:**
-      - Add views and features on the existing social-web-platform
-      - Add views and features on the existing mobile app
+#      Because the target of this social network could be everybody,
+#      we needed to test features and design choices. Analysing those
+#      tests helped us to improve the interface in order to fit
+#      the users preferences.
+
+#      - Resolve bugs and improve efficency
+
+#      **Realisations:**
+#      - Add views and features on the existing social-web-platform
+#      - Add views and features on the existing mobile app
     stack:
       - html-5
       - css-3
