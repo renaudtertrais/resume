@@ -33484,12 +33484,12 @@ module.exports = performanceNow;
 module.exports = {
 	"experiences": [
 		{
-			"company": "Nestlé - Nespresso",
+			"company": "Nestlé - Nespresso HQ",
 			"location": "Lausanne, Switzerland",
 			"start": "2016-06-01T00:00:00.000Z",
 			"job": "Senior Front-end developer",
 			"contract": "permanent",
-			"desc": "I worked on two different projects. The first one was to add **accessibilty** on the existing\nNespresso website. The aim was to follow pattern and rules in order to make it usable for\neveryone including blind people for example.\n\nBefore, Nespresso was using a dedicated mobile website but they wanted a unique across devices\nexperience. So we decided to rewrite it using modern technologies such as React, Redux,\nWebpack and others.\n\n**Tasks:**\n- Organise, plan and split features implementation\n- Bootstrap the responsive website front-end\n- Research and develoment in order to find solutions to specifications\n- Implements features regarding specifications and solutions found\n- Add tests and resove bugs\n\n**Realisations:**\n- Accessibility on the Nespresso website\n- Responsive behavior on the Nesspresso website\n",
+			"desc": "I worked on two different projects. The first one was to add **accessibilty** on the existing\nNespresso website. The aim was to follow patterns and rules in order to make it usable for\neveryone including blind people for example.\n\nBefore, Nespresso was using a dedicated mobile website but they wanted a unique across devices\nexperience. So we decided to rewrite it using modern technologies such as React, Redux,\nWebpack and others.\n\n**Tasks:**\n- Organise, plan and split features implementation\n- Bootstrap the responsive website front-end\n- Research and develoment in order to find solutions to specifications\n- Implements features regarding specifications and solutions found\n",
 			"stack": [
 				"html-5",
 				"css-3",
@@ -33510,7 +33510,7 @@ module.exports = {
 			"end": "2016-05-31T00:00:00.000Z",
 			"job": "Front-end developer",
 			"contract": "permanent",
-			"desc": "My role was to create a simple, innovative and creative\nuser interfaces with **realtime** data updates.\nUsing an **restful** API calls, and **websocket** events,\nI built single page **web apps** and **mobile apps** to display the states\nof the vehicles and allow users to interact with them.\n\nDuring the development of the web-app, we have changed\ntechnologies. Actually, firstly we have chosen MeteorJS in order to\ncreate quickly a prototype. But then me moved on a full-**ReactJS** + **NodeJS**\nweb-application.\n\n**Tasks:**\n- Take part to discussions on the improvements and features to add\n- Discuss with the designer on the best way to add the chosen features\n- Implement the mockups of the designer\n- Add interactivity to the user interface\n- Resolve bugs and improve efficency\n\n**Realisations:**\n- 3 web-apps (Meteor, NodeJS, ReactJS, Coffescript, Less, Sass, Webpack...)\n- a mobile App (Meteor, Cordova, React, React Native, Coffescript, Sass...)\n",
+			"desc": "My role was to create a simple, innovative and creative\nuser interfaces with **realtime** data updates.\nUsing an **restful** API calls, and **websocket** events,\nI built single page **web apps** and **mobile apps** to display the states\nof the vehicles and allow users to interact with them.\n\nDuring the development of the web-app, we have changed\ntechnologies. Actually, firstly we have chosen MeteorJS in order to\ncreate quickly a prototype. But then me moved on a full-**ReactJS** + **NodeJS**\nweb-application.\n\n**Tasks:**\n- Take part to discussions on the improvements and features to add\n- Discuss with the designer on the best way to add the chosen features\n- Implement the mockups of the designer\n- Add interactivity to the user interface\n",
 			"stack": [
 				"html-5",
 				"css-3",
@@ -33536,7 +33536,7 @@ module.exports = {
 			"end": "2014-12-31T00:00:00.000Z",
 			"job": "Front-end developer",
 			"contract": "permanent",
-			"desc": "I was in charge of the front-end development for this famous\nsocial media startup. Working alongside with designers, my job\nwas giving life to new features by delevering **pixel-perfect\nexperience**. One of my main focus was to improve **modularity**\nand consistency of **visual components**.\n\nBecause the target of this social network could be everybody,\nwe needed to test features and design choices. Analysing those\ntests helped us to improve the interface in order to fit\nthe users preferences.\n\n**Tasks:**\n- Take part to discussions on the improvements and features to add\n- Discuss with the designer on the best way to add the chosen features\n- Implement the mockups of the designer\n- Analysing tests on features and design choices\n- Add interactivity to the user interface\n- Resolve bugs and improve efficency\n\n**Realisations:**\n- Add views and features on the existing social-web-platform\n- Add views and features on the existing mobile app\n",
+			"desc": "I was in charge of the front-end development for this famous\nsocial media startup. Working alongside with designers, my job\nwas giving life to new features by delevering **pixel-perfect\nexperience**. One of my main focus was to improve **modularity**\nand consistency of **visual components**.\n\n**Tasks:**\n- Take part to discussions on the improvements and features to add\n- Discuss with the designer on the best way to add the chosen features\n- Implement the mockups of the designer\n- Analysing tests on features and design choices\n- Add interactivity to the user interface\n",
 			"stack": [
 				"html-5",
 				"css-3",
