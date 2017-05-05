@@ -7,11 +7,18 @@ projects:
       **functioannal programing**.
 
   -
-    name: JSPlayground
-    url: github.com/renaudtertrais/JSPlayground
+    name: JSPlaygrounds
+    url: github.com/renaudtertrais/JSPlaygrounds
     desc: |
       A **javascript playground** to test snippet with
       real time evaluation of the code.
+
+  -
+    name: let-start
+    url: github.com/renaudtertrais/let-start
+    desc: |
+      A flexible **web starter kit**
+      (yarn, webpack, babel, react, sass, jest, eslint...)
 
   -
     name: Gear
