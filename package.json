@@ -40,7 +40,7 @@
     "html-webpack-plugin": "^2.26.0",
     "jest-cli": "^18.1.0",
     "json-loader": "^0.5.4",
-    "node-sass": "^4.3.0",
+    "node-sass": "^4.5.2",
     "postcss": "^5.2.11",
     "postcss-loader": "^1.2.2",
     "raw-loader": "^0.5.1",
