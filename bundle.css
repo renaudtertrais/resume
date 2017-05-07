@@ -2553,3 +2553,13 @@ a {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-right: 8px; }
+
+@media print {
+  .Header,
+  .Skills,
+  .Stack,
+  .Experience,
+  .Projects,
+  .Studies,
+  .Interests {
+    margin-bottom: 1cm; } }
