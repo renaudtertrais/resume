@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Header from '../Header';
 import Skills from '../Skills';
@@ -14,22 +15,34 @@ const Resume = props => (
   <div className="Resume">
     <Header {...props.header} />
 
-    <h2 className="Resume__section-title"><span>Skills</span></h2>
+    <h2 className="Resume__section-title">
+      <span>Skills</span>
+    </h2>
     <Skills {...props.skills} />
 
-    <h2 className="Resume__section-title"><span>Stack</span></h2>
+    <h2 className="Resume__section-title">
+      <span>Stack</span>
+    </h2>
     <Stack {...props.stack} />
 
-    <h2 className="Resume__section-title"><span>Experiences</span></h2>
+    <h2 className="Resume__section-title">
+      <span>Experiences</span>
+    </h2>
     <Experiences {...props.experiences} />
 
-    <h2 className="Resume__section-title"><span>Projects</span></h2>
+    <h2 className="Resume__section-title">
+      <span>Projects</span>
+    </h2>
     <Projects {...props.projects} />
 
-    <h2 className="Resume__section-title"><span>Studies</span></h2>
+    <h2 className="Resume__section-title">
+      <span>Studies</span>
+    </h2>
     <Studies {...props.studies} />
 
-    <h2 className="Resume__section-title"><span>Interests</span></h2>
+    <h2 className="Resume__section-title">
+      <span>Interests</span>
+    </h2>
     <Interests {...props.interests} />
 
     <Footer />
@@ -39,13 +52,13 @@ const Resume = props => (
 Resume.displayName = 'Resume';
 
 Resume.propTypes = {
-  header: React.PropTypes.object,
-  skills: React.PropTypes.object,
-  stack: React.PropTypes.object,
-  experiences: React.PropTypes.object,
-  projects: React.PropTypes.object,
-  studies: React.PropTypes.object,
-  interests: React.PropTypes.object,
+  header: PropTypes.object,
+  skills: PropTypes.object,
+  stack: PropTypes.object,
+  experiences: PropTypes.object,
+  projects: PropTypes.object,
+  studies: PropTypes.object,
+  interests: PropTypes.object,
 };
 
 Resume.defaultProps = {

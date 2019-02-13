@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import marked from 'marked';
 
@@ -12,8 +13,8 @@ const Markdown = ({ value, className }) => (
 Markdown.displayName = 'Markdown';
 
 Markdown.propTypes = {
-  value: React.PropTypes.string.isRequired,
-  className: React.PropTypes.any,
+  value: PropTypes.string.isRequired,
+  className: PropTypes.any,
 };
 
 export default Markdown;

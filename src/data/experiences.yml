@@ -1,0 +1,247 @@
+experiences:
+  - company: Nestlé - Nespresso HQ
+    location: 'Lausanne, Switzerland'
+    start: 2016-06-01
+    job: Senior Front-end developer
+    contract: permanent
+    desc: |
+      I worked on two different projects. The first one was to add **accessibilty** on the existing
+      Nespresso website. The aim was to follow patterns and rules in order to make it usable for
+      everyone including blind people for example.
+
+      Before, Nespresso was using a dedicated mobile website but they wanted a unique across devices
+      experience. So we decided to rewrite it using modern technologies such as React, Redux,
+      Webpack and others.
+
+      **Tasks:**
+      - Organise, plan and split features implementation
+      - Bootstrap the responsive website front-end
+      - Research and develoment in order to find solutions to specifications
+      - Implements features regarding specifications and solutions found
+    #      - Add tests and resove bugs
+
+    #      **Realisations:**
+    #      - Accessibility on the Nespresso website
+    #      - Responsive behavior on the Nesspresso website
+
+    stack:
+      - html-5
+      - css-3
+      - javascript
+      - sass
+      - less
+      #- nodejs-icon
+      - react
+      - redux
+      - eslint
+      - jest
+      - webpack
+      # - npm
+
+  - company: BestMile
+    location: 'Lausanne, Switzerland'
+    start: 2015-01-18
+    end: 2016-05-31
+    job: Front-end developer
+    contract: permanent
+    desc: |
+      My role was to create a simple, innovative and creative
+      user interfaces with **realtime** data updates.
+      Using an **restful** API calls, and **websocket** events,
+      I built single page **web apps** and **mobile apps** to display the states
+      of the vehicles and allow users to interact with them.
+
+      During the development of the web-app, we have changed
+      technologies. Actually, firstly we have chosen MeteorJS in order to
+      create quickly a prototype. But then me moved on a full-**ReactJS** + **NodeJS**
+      web-application.
+
+      **Tasks:**
+      - Take part to discussions on the improvements and features to add
+      - Discuss with the designer on the best way to add the chosen features
+      - Implement the mockups of the designer
+      - Add interactivity to the user interface
+    #      - Resolve bugs and improve efficency
+
+    #      **Realisations:**
+    #      - 3 web-apps (Meteor, NodeJS, ReactJS, Coffescript, Less, Sass, Webpack...)
+    #      - a mobile App (Meteor, Cordova, React, React Native, Coffescript, Sass...)
+
+    stack:
+      - html-5
+      - css-3
+      - javascript
+      - coffeescript
+      - sass
+      - less
+      - nodejs-icon
+      - meteor-icon
+      - react
+      - redux
+      - d3
+      - openlayers
+      - socket.io
+      # - cordova
+      - gulp
+      - webpack
+      # - npm
+
+  #      The typical user of the web-app is a transport technician.
+  #      So I have to take habits and standards of transport into account
+  #      in order to improve its experience using the application.
+  #      The mobile app is for customers, so here, the target is different and
+  #      the app must be simple and easy to use.
+  - company: Urturn
+    location: 'Lausanne, Switzerland'
+    start: 2014-08-18
+    end: 2014-12-31
+    job: Front-end developer
+    contract: permanent
+    desc: |
+      I was in charge of the front-end development for this famous
+      social media startup. Working alongside with designers, my job
+      was giving life to new features by delevering **pixel-perfect
+      experience**. One of my main focus was to improve **modularity**
+      and consistency of **visual components**.
+
+      **Tasks:**
+      - Take part to discussions on the improvements and features to add
+      - Discuss with the designer on the best way to add the chosen features
+      - Implement the mockups of the designer
+      - Analysing tests on features and design choices
+      - Add interactivity to the user interface
+
+    #      Because the target of this social network could be everybody,
+    #      we needed to test features and design choices. Analysing those
+    #      tests helped us to improve the interface in order to fit
+    #      the users preferences.
+
+    #      - Resolve bugs and improve efficency
+
+    #      **Realisations:**
+    #      - Add views and features on the existing social-web-platform
+    #      - Add views and features on the existing mobile app
+    stack:
+      - html-5
+      - css-3
+      - javascript
+      - sass
+      - gulp
+
+  - company: Emaj
+    location: 'Lyon, France'
+    start: 2011-01-01
+    end: 2014-09-30
+    job: 'Front-end developer & UX/UI designer Consultant'
+    #job: "Front-end developer Consultant"
+    contract: freelance
+    desc: |
+      Emaj was the web agency that I created. My missions was to
+      control the whole process of creation. Negociation with the client,
+      mockups and designs, backend implementation and frontend integration.
+      That experience make me realise the importance of each step in the creation
+      process
+    stack:
+      - html-5
+      - css-3
+      - javascript
+      - sass
+      - php
+      - wordpress-icon
+      - gulp
+      - grunt
+      - bower
+
+  - company: 'Triangulaire, Audinfor, Inook'
+    location: 'Lyon, France'
+    duration: 10 months
+    start: 2012-06-01
+    end: 2014-07-18
+    # job:  "Front-end developer & UX/UI designer"
+    job: 'Front-end developer'
+    contract: internship
+    desc: |
+      During my studies, my internships have allowed me to practice and learn
+      a wide range of techologies on a great panel of projects.
+      Working in creative web-agencies give me the chance to work
+      on mobile devices by creating ios games, hybrid apps,
+      and also on web applications with dashboard interfaces, websites...
+    stack:
+      - html-5
+      - css-3
+      - javascript
+      - sass
+      - php
+      - symfony
+      - nodejs-icon
+      - angular-icon
+      - socket.io
+      - cordova
+      - gulp
+      - bower
+
+  # triangulaire:
+  #   company: Triangulaire
+  #   location: "Lyon, France"
+  #   start: 2014-03-20
+  #   end: 2014-07-18
+  #   job:  Front-end developer
+  #   contract: internship
+  #   stack: []
+  #   tasks:
+  #     - Shortener \: a url shortener (AngularJS)
+  #     - A ios/web chat (AngualrJS + Socket.IO + NodeJS)
+
+  # audinfor:
+  #   company: Audinfor
+  #   location: "Lyon, France"
+  #   start: 2013-07-01
+  #   end: 2013-09-30
+  #   job: "Front-end developer & UX/UI designer"
+  #   contract: internship
+  #   stack: []
+  #   tasks:
+  #     - Front development
+  #     - "UX & UI Design"
+
+  # inook:
+  #   company: Inook
+  #   location: "Lyon, France"
+  #   start: 2012-06-01
+  #   end: 2012-08-31
+  #   job: "IOS & full-stack developer"
+  #   contract: internship
+  #   stack: []
+  #   tasks:
+  #     - Creation of 2 free-to-play available on the AppStore (Anooki Zag & Anooki Roll)
+  #     - Shake-up of a newsletter tool
+
+  - company: ACTUA
+    location: 'St Laurent De Mure, France'
+    start: 2010-9-01
+    end: 2011-07-31
+    job: 'Graphic designer & full-stack developer'
+    #contract: sandwich course
+    desc: |
+      In this company, my role was to focus on every
+      **communication print and web** materials. I had the opportunity
+      to work on differents supports : **brochures, flyers, billboards**...
+      In order to improve the visibility and the credibility of the brand,
+      I created the company’s institutional website with **Wordpress**.
+      For a special event, I developed a full-flash website (yes, it was still the trend!)
+    stack:
+      - html-5
+      - css-3
+      - javascript
+      - php
+      - wordpress-icon
+
+  - company: APRR
+    location: 'Genay, France'
+    start: 2008-09-01
+    end: 2010-08-31
+    job: 'Graphic designer & Marketing assistant'
+    #contract: sandwich courses
+    desc: |
+      I was the marketing manager's assistant and my tasks were to
+      **design** internals **communication** materials.

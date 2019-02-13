@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
 const Icon = props => (
@@ -8,8 +9,8 @@ const Icon = props => (
 Icon.displayName = 'Icon';
 
 Icon.propTypes = {
-  name: React.PropTypes.string.isRequired,
-  className: React.PropTypes.string,
+  name: PropTypes.string.isRequired,
+  className: PropTypes.string,
 };
 
 Icon.defaultProps = {

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Icon from '../Icon';
 import './Interests.scss';
@@ -15,20 +16,18 @@ const Interest = ({ name, icon }) => (
 Interest.displayName = 'Interest';
 
 Interest.propTypes = {
-  name: React.PropTypes.string,
-  icon: React.PropTypes.string,
+  name: PropTypes.string,
+  icon: PropTypes.string,
 };
 
 const Interests = ({ interests }) => (
-  <section className="Interests">
-    {interests.map(Interest)}
-  </section>
+  <section className="Interests">{interests.map(Interest)}</section>
 );
 
 Interests.displayName = 'Interests';
 
 Interests.propTypes = {
-  interests: React.PropTypes.array.isRequired,
+  interests: PropTypes.array.isRequired,
 };
 
 export default Interests;

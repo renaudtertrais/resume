@@ -1,4 +1,6 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
+import PropTypes from 'prop-types';
 import moment from 'moment';
 
 import Icon from '../Icon';
@@ -16,9 +18,9 @@ const HeaderLink = ({ title, href, icon }) => (
 HeaderLink.displayName = 'HeaderLink';
 
 HeaderLink.propTypes = {
-  title: React.PropTypes.string.isRequired,
-  href: React.PropTypes.string.isRequired,
-  icon: React.PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
 };
 
 const Header = ({ columns }) => {
@@ -44,10 +46,14 @@ const Header = ({ columns }) => {
       </div>
       <div className="Header__columns">
         <ul className="Header__links-list">
-          {columns.left.map(link => <HeaderLink key={link.icon} {...link} />)}
+          {columns.left.map(link => (
+            <HeaderLink key={link.icon} {...link} />
+          ))}
         </ul>
         <ul className="Header__links-list">
-          {columns.right.map(link => <HeaderLink key={link.icon} {...link} />)}
+          {columns.right.map(link => (
+            <HeaderLink key={link.icon} {...link} />
+          ))}
         </ul>
       </div>
     </header>
@@ -57,9 +63,9 @@ const Header = ({ columns }) => {
 Header.displayName = 'Header';
 
 Header.propTypes = {
-  columns: React.PropTypes.shape({
-    left: React.PropTypes.arrayOf(React.PropTypes.object),
-    right: React.PropTypes.arrayOf(React.PropTypes.object),
+  columns: PropTypes.shape({
+    left: PropTypes.arrayOf(PropTypes.object),
+    right: PropTypes.arrayOf(PropTypes.object),
   }).isRequired,
 };
 

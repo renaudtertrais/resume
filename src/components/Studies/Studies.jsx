@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { getDuration } from '../../helpers';
 import './Studies.scss';
@@ -15,22 +16,18 @@ const Study = ({ school, start, end, name }) => (
 Study.displayName = 'Study';
 
 Study.propTypes = {
-  school: React.PropTypes.string,
-  start: React.PropTypes.number,
-  end: React.PropTypes.number,
-  name: React.PropTypes.string,
+  school: PropTypes.string,
+  start: PropTypes.number,
+  end: PropTypes.number,
+  name: PropTypes.string,
 };
 
-const Studies = ({ studies }) => (
-  <section className="Studies">
-    {studies.map(Study)}
-  </section>
-);
+const Studies = ({ studies }) => <section className="Studies">{studies.map(Study)}</section>;
 
 Studies.displayName = 'Studies';
 
 Studies.propTypes = {
-  studies: React.PropTypes.array.isRequired,
+  studies: PropTypes.array.isRequired,
 };
 
 export default Studies;

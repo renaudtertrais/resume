@@ -28,7 +28,8 @@ strong {
 }
 
 body {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   color: $color__font;
   background-color: $bg-color;
   font-size: 12px;
@@ -41,7 +42,7 @@ a {
 
   &:hover,
   &:active {
-    opacity: .9;
+    opacity: 0.9;
     text-decoration: underline;
   }
 }

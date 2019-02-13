@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Markdown from '../Markdown';
 import { getPeriod, getDuration } from '../../helpers';
@@ -21,7 +22,9 @@ const Experience = props => {
         <ul className="Experience__stack">{stack.map(renderStackItem)}</ul>
         <span className="Experience__company">{company},</span>
         <span className="Experience__location">{location}</span>
-        <span className="Experience__date">{period} ({duration})</span>
+        <span className="Experience__date">
+          {period} ({duration})
+        </span>
       </h4>
       <Markdown className="section__desc" value={desc} />
     </div>
@@ -31,14 +34,14 @@ const Experience = props => {
 Experience.displayName = 'Experience';
 
 Experience.propTypes = {
-  company: React.PropTypes.string,
-  location: React.PropTypes.string,
-  start: React.PropTypes.string,
-  end: React.PropTypes.string,
-  job: React.PropTypes.string,
-  duration: React.PropTypes.string,
-  desc: React.PropTypes.string,
-  stack: React.PropTypes.array,
+  company: PropTypes.string,
+  location: PropTypes.string,
+  start: PropTypes.string,
+  end: PropTypes.string,
+  job: PropTypes.string,
+  duration: PropTypes.string,
+  desc: PropTypes.string,
+  stack: PropTypes.array,
 };
 
 Experience.defaultProps = {
@@ -47,15 +50,16 @@ Experience.defaultProps = {
 
 const Experiences = ({ experiences }) => (
   <section className="Experiences">
-    {experiences.map(exp => <Experience key={exp.start} {...exp} />)}
+    {experiences.map(exp => (
+      <Experience key={exp.start} {...exp} />
+    ))}
   </section>
 );
 
 Experiences.displayName = 'Experiences';
 
 Experiences.propTypes = {
-  experiences: React.PropTypes.array.isRequired,
+  experiences: PropTypes.array.isRequired,
 };
 
 export default Experiences;
-

@@ -1,4 +1,6 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Markdown from '../Markdown';
 import './Projects.scss';
@@ -19,21 +21,19 @@ const Project = ({ name, url, desc }) => (
 Project.displayName = 'Project';
 
 Project.propTypes = {
-  name: React.PropTypes.string,
-  url: React.PropTypes.string,
-  desc: React.PropTypes.string,
+  name: PropTypes.string,
+  url: PropTypes.string,
+  desc: PropTypes.string,
 };
 
 const Projects = ({ projects }) => (
-  <section className="Projects">
-    {projects.slice(0, 4).map(Project)}
-  </section>
+  <section className="Projects">{projects.slice(0, 4).map(Project)}</section>
 );
 
 Projects.displayName = 'Projects';
 
 Projects.propTypes = {
-  projects: React.PropTypes.array.isRequired,
+  projects: PropTypes.array.isRequired,
 };
 
 export default Projects;

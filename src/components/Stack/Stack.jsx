@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './Stack.scss';
 
@@ -29,7 +30,7 @@ const Stack = ({ stack }) => (
 Stack.displayName = 'Stack';
 
 Stack.propTypes = {
-  stack: React.PropTypes.arrayOf(React.PropTypes.string).isRequired,
+  stack: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default Stack;
