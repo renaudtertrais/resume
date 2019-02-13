@@ -1,12 +1,31 @@
 @media print {
-  .Header,
-  .Skills,
-  .Stack,
-  .Experience,
-  .Projects,
-  .Studies,
-  .Interests {
+  .Header {
     margin-bottom: 1cm;
   }
-}
 
+  .Skills {
+    margin-bottom: 2cm;
+  }
+
+  .Stack {
+    margin-bottom: 7cm;
+
+    .section__title {
+      margin-top: 0.2cm;
+      margin-bottom: 0.3cm;
+    }
+  }
+
+  .Experience {
+    margin-bottom: 0.5cm;
+  }
+
+  .Projects,
+  .Studies {
+    margin-bottom: 0.5cm;
+  }
+
+  .Footer {
+    display: none;
+  }
+}
