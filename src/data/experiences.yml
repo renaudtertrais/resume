@@ -1,21 +1,59 @@
 experiences:
+  - company: beqom
+    location: 'Nyon, Switzerland'
+    start: 2017-08-14
+    job: Lead Frontend developer
+    contract: permanent
+    desc: |
+      Beqom is building a total compensation solution in order to help big companies in their processes.
+      They already had developed a solution used by many customers based on old technologies and they wanted a fresh new UI.
+      So we **rebuilt the frontend using React** and other modern libraries in order to improve maintainability,
+      performance and of course user experience
+
+      With a lot of constraints and short deadlines, it was an interesting project with **great technical challenges**.
+      I have learnt a lot of things such as the importance of **shipping a MVP** as soon as possible or the power of the KISS principal.
+      My experience as a manager and team leader also made me progress on my work and time organisation.
+
+      **Role**:
+      - Guarantee the quality of the code and the respect of best practices
+      - Setup scrum methodology and animate meetings (dailys, plannings, groomings, demos, etc.)
+      - Organize workshops in order to train the team and help them to progress
+      - Provide the frontend architecture
+      - Create and maintain an open source React UI library published as a npm package (@beqom/alto-ui)
+      - Management tasks: days off, kpi...
+
+    stack:
+      - javascript
+      - react
+      - redux
+      - sass
+      - html-5
+      - eslint
+      - prettier
+      - npm
+      - jest
+      - webpack
+      - circleci
+      - github-icon
+
   - company: Nestlé - Nespresso HQ
     location: 'Lausanne, Switzerland'
     start: 2016-06-01
-    job: Senior Front-end developer
+    end: 2017-05-31
+    job: Senior Frontend developer
     contract: permanent
     desc: |
       I worked on two different projects. The first one was to add **accessibilty** on the existing
       Nespresso website. The aim was to follow patterns and rules in order to make it usable for
       everyone including blind people for example.
 
-      Before, Nespresso was using a dedicated mobile website but they wanted a unique across devices
+      Before, Nespresso was using a dedicated mobile website but they wanted a unique experience across devices
       experience. So we decided to rewrite it using modern technologies such as React, Redux,
       Webpack and others.
 
       **Tasks:**
       - Organise, plan and split features implementation
-      - Bootstrap the responsive website front-end
+      - Bootstrap the responsive website frontend
       - Research and develoment in order to find solutions to specifications
       - Implements features regarding specifications and solutions found
     #      - Add tests and resove bugs
@@ -42,12 +80,11 @@ experiences:
     location: 'Lausanne, Switzerland'
     start: 2015-01-18
     end: 2016-05-31
-    job: Front-end developer
+    job: Frontend developer
     contract: permanent
     desc: |
-      My role was to create a simple, innovative and creative
-      user interfaces with **realtime** data updates.
-      Using an **restful** API calls, and **websocket** events,
+      My role was to create a simple, innovative and creative user interface with **realtime** data updates.
+      Using **restful** API calls, and **websocket** events,
       I built single page **web apps** and **mobile apps** to display the states
       of the vehicles and allow users to interact with them.
 
@@ -95,13 +132,13 @@ experiences:
     location: 'Lausanne, Switzerland'
     start: 2014-08-18
     end: 2014-12-31
-    job: Front-end developer
+    job: Frontend developer
     contract: permanent
     desc: |
-      I was in charge of the front-end development for this famous
+      I was in charge of the frontend development for this famous
       social media startup. Working alongside with designers, my job
       was giving life to new features by delevering **pixel-perfect
-      experience**. One of my main focus was to improve **modularity**
+      experience**. One of the main focuses was to improve **modularity**
       and consistency of **visual components**.
 
       **Tasks:**
@@ -132,8 +169,8 @@ experiences:
     location: 'Lyon, France'
     start: 2011-01-01
     end: 2014-09-30
-    job: 'Front-end developer & UX/UI designer Consultant'
-    #job: "Front-end developer Consultant"
+    job: 'Frontend developer & UX/UI designer Consultant'
+    #job: "Frontend developer Consultant"
     contract: freelance
     desc: |
       Emaj was the web agency that I created. My missions was to
@@ -157,8 +194,8 @@ experiences:
     duration: 10 months
     start: 2012-06-01
     end: 2014-07-18
-    # job:  "Front-end developer & UX/UI designer"
-    job: 'Front-end developer'
+    # job:  "Frontend developer & UX/UI designer"
+    job: 'Frontend developer'
     contract: internship
     desc: |
       During my studies, my internships have allowed me to practice and learn
@@ -185,7 +222,7 @@ experiences:
   #   location: "Lyon, France"
   #   start: 2014-03-20
   #   end: 2014-07-18
-  #   job:  Front-end developer
+  #   job:  Frontend developer
   #   contract: internship
   #   stack: []
   #   tasks:
@@ -197,7 +234,7 @@ experiences:
   #   location: "Lyon, France"
   #   start: 2013-07-01
   #   end: 2013-09-30
-  #   job: "Front-end developer & UX/UI designer"
+  #   job: "Frontend developer & UX/UI designer"
   #   contract: internship
   #   stack: []
   #   tasks:
@@ -224,8 +261,7 @@ experiences:
     #contract: sandwich course
     desc: |
       In this company, my role was to focus on every
-      **communication print and web** materials. I had the opportunity
-      to work on differents supports : **brochures, flyers, billboards**...
+      **communication print and web** materials. I had the opportunity to work on different media: **brochures, flyers, billboards**...
       In order to improve the visibility and the credibility of the brand,
       I created the company’s institutional website with **Wordpress**.
       For a special event, I developed a full-flash website (yes, it was still the trend!)
@@ -235,13 +271,12 @@ experiences:
       - javascript
       - php
       - wordpress-icon
-
-  - company: APRR
-    location: 'Genay, France'
-    start: 2008-09-01
-    end: 2010-08-31
-    job: 'Graphic designer & Marketing assistant'
-    #contract: sandwich courses
-    desc: |
-      I was the marketing manager's assistant and my tasks were to
-      **design** internals **communication** materials.
+  # - company: APRR
+  #   location: 'Genay, France'
+  #   start: 2008-09-01
+  #   end: 2010-08-31
+  #   job: 'Graphic designer & Marketing assistant'
+  #   #contract: sandwich courses
+  #   desc: |
+  #     I was the marketing manager's assistant and my task was to
+  #     **design** internals **communication** materials.

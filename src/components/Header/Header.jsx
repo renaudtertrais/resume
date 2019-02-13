@@ -40,7 +40,7 @@ const Header = ({ columns }) => {
             <span className="Header__age"> - {age} years old</span>
           </h2>
           <h1 className="Header__function">
-            Senior <span className="Header__function-alt">Frontend</span> Developer
+            Lead <span className="Header__function-alt">Frontend</span> Developer
           </h1>
         </div>
       </div>

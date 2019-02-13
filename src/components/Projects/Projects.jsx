@@ -5,6 +5,11 @@ import PropTypes from 'prop-types';
 import Markdown from '../Markdown';
 import './Projects.scss';
 
+function crop(str, max) {
+  const toBeCropped = str.slice(max / 2, -max / 2);
+  return toBeCropped.length ? `${str.slice(0, max / 2)}...${str.slice(-max / 2)}` : str;
+}
+
 const Project = ({ name, url, desc }) => (
   <div className="Project" key={name}>
     <div className="Project__container">
@@ -12,7 +17,7 @@ const Project = ({ name, url, desc }) => (
       <Markdown className="section__desc" value={desc} />
       <a className="Project__link" href={`https://${url}`} target="_blank">
         <img className="Project__picto" src="assets/logos/github-icon.svg" alt="" />
-        {url}
+        {crop(url, 50)}
       </a>
     </div>
   </div>

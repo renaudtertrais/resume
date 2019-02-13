@@ -1,26 +1,21 @@
 skills:
-  -
-    name: Frontend expertise
+  - name: Frontend expertise
     desc: |
-      My frontend expertise consists in:
-      - **Analysing** designs and find the more elegant way to implement them.
-      - Follow popular patterns (**BEM**...), conventions and styleguides.
-      - Provide **readable and maintainable** code with linting and testing.
-      - Respect **standards** and accessibility, optimize code for search engines (**SEO**).
-#     - **Thinking components** to allow modularity and maintainability.
+      - Analysing designs and find the more elegant way to implement them.
+      - Following popular patterns (**BEM**...), conventions and styleguides.
+      - Providing **readable and maintainable** code with linting and testing.
+      - Respecting **standards** and accessibility, optimize code for search engines (**SEO**).
+  #     - **Thinking components** to allow modularity and maintainability.
 
-  -
-    name: UX/UI design
+  - name: UX/UI design
     desc: |
-      During my studies and my **experience**, I learn and practice UX & UI design.
-      This allow me to understand and **discuss with designers** in order
+      During my studies and my **experience**, I have learned and practiced UX & UI design.
+      This allows me to understand and **discuss with designers** in order
       to get the **best result**.
 
-  -
-    name: English speaking
+  - name: English Skills
     desc: |
-      I have a **professional level** in english (I have already
-      worked with english team members).
+      I have a **professional level** in english (I have already worked with English-speaking team members).
 
 # frontend:
 #   name: Frontend expertise

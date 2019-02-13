@@ -21,9 +21,16 @@ const renderStackItem = name => {
   );
 };
 
-const Stack = ({ stack }) => (
+const Stack = ({ current, regular, casual }) => (
   <section className="Stack">
-    <ul className="Stack__list">{stack.map(renderStackItem)}</ul>
+    <h3 class="section__title">Daily stack:</h3>
+    <ul className="Stack__list">{current.map(renderStackItem)}</ul>
+    <br />
+    <h3 class="section__title">I used several times:</h3>
+    <ul className="Stack__list">{regular.map(renderStackItem)}</ul>
+    <br />
+    <h3 class="section__title">I already used or try:</h3>
+    <ul className="Stack__list">{casual.map(renderStackItem)}</ul>
   </section>
 );
 

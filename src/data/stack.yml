@@ -1,36 +1,49 @@
-stack:
+current:
   - HTML 5
   - SVG
-  - Pug
-  - Handlebars
   - CSS 3
   - Sass
-  - "BEM, OOCSS (bem)"
+  - 'BEM, OOCSS (bem)'
   - PostCSS
-  - "Javascript ES5 & ES6 (javascript)"
+  - 'Javascript ES5 & ES6 (javascript)'
   - Babel
   - React
   - Redux
-  - NodeJS (nodejs-icon)
-  - Meteor (meteor-icon)
-  - Angular (angular-icon)
-  - D3
-  - OpenLayers
-  - Socket.IO
+  - lodash
   - ESLint
   - Jest
   - Git (git-icon)
   - NPM
   - Yarn
-  - Gulp
   - Webpack
-  - Cordova
-  - PHP
-  - Wordpress (wordpress-icon)
-  - Travis CI
-  - Sketch (sketchapp)
+  - Circle CI (circleci)
+  - Github (github-icon)
+  - VS Code (visual-studio-code)
   - Mac OSX (macosx)
 
+regular:
+  - NodeJS (nodejs-icon)
+  - D3
+  - Socket.IO
+  - Travis CI
+  - Sketch
+
+casual:
+  - Pug
+  - Handlebars
+  - Meteor (meteor-icon)
+  - Angular (angular-icon)
+  - Vue
+  - OpenLayers
+  - React Native (react)
+  - Cordova
+  - Gulp
+  - PHP
+  - Wordpress (wordpress-icon)
+  - python
+  - ruby
+  - java
+  - haskell
 # stack:
 #   markup:
 #     name: Markup

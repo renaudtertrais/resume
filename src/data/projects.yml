@@ -1,42 +1,46 @@
 projects:
-  -
-    name: yambda
+  - name: Alto UI
+    url: github.com/beqom/alto-ui
+    desc: |
+      A **React UI library** with severals components: Button, Dropdown, Modal...
+
+  - name: '@storybook/addon-jest'
+    url: github.com/storybooks/storybook/tree/next/addons/jest
+    desc: |
+      A React storybook addon that brings Jest results in storybook.
+
+  - name: yambda
     url: github.com/renaudtertrais/yambda
     desc: |
       A library of javascript functions useful for
       **functioannal programing**.
 
-  -
-    name: JSPlaygrounds
+  - name: JSPlaygrounds
     url: github.com/renaudtertrais/JSPlaygrounds
     desc: |
       A **javascript playground** to test snippet with
       real time evaluation of the code.
 
-  -
-    name: let-start
+  - name: let-start
     url: github.com/renaudtertrais/let-start
     desc: |
       A flexible **web starter kit**
       (yarn, webpack, babel, react, sass, jest, eslint...)
 
-  -
-    name: Gear
+  - name: Gear
     url: github.com/renaudtertrais/gear
     desc: |
       A **front-end framework** based on flexibility,
       a collection of **sass mixins** with options and parameters.
 
-  -
-    name: jQuery.pinOn
+  - name: jQuery.pinOn
     url: github.com/renaudtertrais/jquery.pinOn
     desc: |
       A **jQuery plugin** that allow **positioning** a child
       relative to its parent.
       Could be very useful for **tooltips** for example.
 
-  -
-    name: Plugin.js
+  - name: Plugin.js
     url: github.com/renaudtertrais/Plugin.js
     desc: |
       A lightweight (0.5kb) **jQuery plugins bootstrap** that
@@ -50,8 +54,7 @@ projects:
   #     `var MySubClass = MyClass.extend({...})`
   #   url: github.com/renaudtertrais/Object.js
 
-  -
-    name: fasterPHP
+  - name: fasterPHP
     url: github.com/renaudtertrais/fasterPHP
     desc: |
       A tiny library PHP which give acess to

@@ -26,7 +26,7 @@ const Resume = props => (
     <Stack {...props.stack} />
 
     <h2 className="Resume__section-title">
-      <span>Experiences</span>
+      <span>Experience</span>
     </h2>
     <Experiences {...props.experiences} />
 
