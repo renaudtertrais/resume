@@ -6,4 +6,4 @@ See result here: https://renaudtertrais.github.io/resume/
 
 ## Licence
 
-MIT © 2016-present Renaud Tertrais
+MIT © 2019-present Renaud Tertrais
