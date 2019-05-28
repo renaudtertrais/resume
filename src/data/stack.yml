@@ -11,6 +11,7 @@ current:
   - Redux
   - lodash
   - ESLint
+  - prettier
   - Jest
   - Git (git-icon)
   - NPM
