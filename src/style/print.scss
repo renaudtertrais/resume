@@ -1,4 +1,11 @@
 @media print {
+  $color__main--60: lighten($color__main, 67%);
+  $color__main--50: lighten($color__main, 60%);
+
+  body {
+    background-color: white;
+  }
+
   .Header {
     margin-bottom: 1cm;
   }
@@ -9,6 +16,10 @@
 
   .Stack {
     margin-bottom: 7cm;
+
+    .Stack__item {
+      background: $color__main--60;
+    }
 
     .section__title {
       margin-top: 0.2cm;
@@ -25,7 +36,22 @@
     margin-bottom: 0.5cm;
   }
 
+  .Projects {
+    .Project__container {
+      background: $color__main--60;
+    }
+  }
+
   .Footer {
     display: none;
+  }
+  * {
+    .section {
+      border-bottom: 1px solid $color__main--50;
+    }
+
+    .section__desc {
+      border-left: 3px solid $color__main--50;
+    }
   }
 }
