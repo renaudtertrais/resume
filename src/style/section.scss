@@ -1,23 +1,22 @@
 .section {
   padding-bottom: 10px;
-  border-bottom: 1px solid rgba(black, .1);
+  border-bottom: 1px solid $color__main--50;
   margin-bottom: 10px;
 }
 
 .section__title {
-  // color: $color__primary;
   font-weight: 700;
 }
 
 .section__desc {
   margin-top: 5px;
   padding-left: 7px;
-  border-left: 3px solid rgba(black, .1);
+  border-left: 3px solid $color__main--50;
   line-height: 1.8;
   //background: rgba(0,0,0,.05);
 
   li:before {
-    content: "\f138";
+    content: '\f138';
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -27,4 +26,3 @@
     margin-right: 8px;
   }
 }
-

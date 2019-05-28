@@ -1,4 +1,4 @@
-@import "../../style/inc.scss";
+@import '../../style/inc.scss';
 
 .Projects {
   @extend %clearfix;
@@ -16,9 +16,10 @@
 .Project__container {
   margin: 0 5px;
   padding: 10px 20px;
-  background: rgba(black, .05);
-  border-bottom: 1px solid rgba(black, .1);
+  background: $color__main--60;
+  border-bottom: 1px solid $color__main--50;
   height: 125px;
+  border-radius: 6px;
 }
 
 .Project__link {

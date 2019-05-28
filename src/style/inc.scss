@@ -17,9 +17,12 @@ $flat-ui-blue-dark: #2980b9;
 $color__primary: $github-red;
 $color__secondary: $flat-ui-blue-gray; //$github-green;
 $color__main: $flat-ui-blue-gray;
-$color__main--light: lighten($color__main, 30%);
-$color__main--ultra-light: lighten($color__main, 65%);
-$bg-color: $color__main--ultra-light;
+$color__main--30: lighten($color__main, 30%);
+$color__main--50: lighten($color__main, 52%);
+$color__main--60: lighten($color__main, 62%);
+$color__main--65: lighten($color__main, 65%);
+$color__muted: $color__main--30;
+$bg-color: $color__main--65;
 $bg-darker: darken($bg-color, 10%);
 $color__font: $color__main;
 

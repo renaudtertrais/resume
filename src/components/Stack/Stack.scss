@@ -1,12 +1,15 @@
+@import '../../style/inc';
+
 .Stack__item {
   line-height: 15px;
   padding: 5px;
   padding-right: 10px;
-  background: rgba(black, .05);
-  border-bottom: 1px solid rgba(black, .1);
+  background: $color__main--60;
+  border-bottom: 1px solid $color__main--50;
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 5px;
+  border-radius: 15px;
 }
 
 .Stack__image {
