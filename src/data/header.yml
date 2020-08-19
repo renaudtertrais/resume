@@ -1,11 +1,11 @@
 columns:
   left:
-    - title: 43 chemin de la servettaz, 74200 ALLINGES
+    - title: 138 Dalhousie St, Haberfield NSW 2045, Australia
       icon: map-marker
-      href: http://maps.google.com/?q=noyer
-    - title: +33 6 99 24 18 02
+      href: http://maps.google.com/?q=haberfield
+    - title: +61 491 193 190
       icon: phone
-      href: tel:+33699241802
+      href: tel:+61491193190
     - title: renaud.tertrais@gmail.com
       icon: envelope-o
       href: mailto:renaud.tertrais@gmail.com
