@@ -3,12 +3,13 @@ current:
   - SVG
   - CSS 3
   - Sass
-  - 'BEM, OOCSS (bem)'
-  - PostCSS
+  # - PostCSS
   - 'Javascript ES5 & ES6 (javascript)'
-  - Babel
   - React
   - Redux
+  - apollostack
+  - graphql
+  # - Babel
   - lodash
   - ESLint
   - prettier
@@ -16,17 +17,18 @@ current:
   - Git (git-icon)
   - NPM
   - Yarn
-  - Webpack
-  - Circle CI (circleci)
   - Github (github-icon)
   - VS Code (visual-studio-code)
-  - Mac OSX (macosx)
+  # - Mac OSX (macos)
 
 regular:
+  - 'BEM, OOCSS (bem)'
   - NodeJS (nodejs-icon)
   - D3
   - Socket.IO
   - Travis CI
+  - Circle CI (circleci)
+  - Webpack
   - Sketch
 
 casual:
@@ -44,7 +46,7 @@ casual:
   - python
   - ruby
   - java
-  - haskell
+  - haskell (haskell-icon)
 # stack:
 #   markup:
 #     name: Markup

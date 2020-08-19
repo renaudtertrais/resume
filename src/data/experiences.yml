@@ -1,7 +1,27 @@
 experiences:
+  - company: Atlassian
+    location: 'Sydney, Australia'
+    start: 2019-11-04
+    job: Senior Software Engineer
+    contract: permanent
+    desc: |
+      Working on **Jira** next-gen backlog.
+
+    stack:
+      - javascript
+      - react
+      - apollostack
+      - graphql
+      - redux
+      - html-5
+      - eslint
+      - prettier
+      - jest
+
   - company: beqom
     location: 'Nyon, Switzerland'
     start: 2017-08-14
+    end: 2019-10-31
     job: Lead Frontend developer
     contract: permanent
     desc: |

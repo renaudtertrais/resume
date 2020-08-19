@@ -12,10 +12,9 @@ skills:
       During my studies and my **experience**, I have learned and practiced UX & UI design.
       This allows me to understand and **discuss with designers** in order
       to get the **best result**.
-
-  - name: English Skills
-    desc: |
-      I have a **professional level** in english (I have already worked with English-speaking team members).
+  # - name: English Skills
+  #   desc: |
+  #     I have a **professional level** in english (I have already worked with English-speaking team members).
 
 # frontend:
 #   name: Frontend expertise
