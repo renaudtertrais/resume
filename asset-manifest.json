@@ -1,16 +1,27 @@
 {
-  "main.css": "/resume/static/css/main.d8d73988.chunk.css",
-  "main.js": "/resume/static/js/main.8e9c76fa.chunk.js",
-  "main.js.map": "/resume/static/js/main.8e9c76fa.chunk.js.map",
-  "runtime~main.js": "/resume/static/js/runtime~main.fd78f13f.js",
-  "runtime~main.js.map": "/resume/static/js/runtime~main.fd78f13f.js.map",
-  "static/css/2.a5111124.chunk.css": "/resume/static/css/2.a5111124.chunk.css",
-  "static/js/2.b75d643a.chunk.js": "/resume/static/js/2.b75d643a.chunk.js",
-  "static/js/2.b75d643a.chunk.js.map": "/resume/static/js/2.b75d643a.chunk.js.map",
-  "index.html": "/resume/index.html",
-  "precache-manifest.32e7cb08fdd49a5d83fd6c96a3201894.js": "/resume/precache-manifest.32e7cb08fdd49a5d83fd6c96a3201894.js",
-  "service-worker.js": "/resume/service-worker.js",
-  "static/css/2.a5111124.chunk.css.map": "/resume/static/css/2.a5111124.chunk.css.map",
-  "static/css/main.d8d73988.chunk.css.map": "/resume/static/css/main.d8d73988.chunk.css.map",
-  "static/media/font-awesome.css": "/resume/static/media/fontawesome-webfont.fee66e71.woff"
+  "files": {
+    "main.css": "/resume/static/css/main.da19f761.chunk.css",
+    "main.js": "/resume/static/js/main.ed2bbf1f.chunk.js",
+    "main.js.map": "/resume/static/js/main.ed2bbf1f.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.01c6ff87.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.01c6ff87.js.map",
+    "static/css/2.fbeba37a.chunk.css": "/resume/static/css/2.fbeba37a.chunk.css",
+    "static/js/2.f70f9bd1.chunk.js": "/resume/static/js/2.f70f9bd1.chunk.js",
+    "static/js/2.f70f9bd1.chunk.js.map": "/resume/static/js/2.f70f9bd1.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.b5c802136c75242e623684d2601229f0.js": "/resume/precache-manifest.b5c802136c75242e623684d2601229f0.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/2.fbeba37a.chunk.css.map": "/resume/static/css/2.fbeba37a.chunk.css.map",
+    "static/css/main.da19f761.chunk.css.map": "/resume/static/css/main.da19f761.chunk.css.map",
+    "static/js/2.f70f9bd1.chunk.js.LICENSE.txt": "/resume/static/js/2.f70f9bd1.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/resume/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/renaud-tertrais.jpg": "/resume/static/media/renaud-tertrais.fff77be4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01c6ff87.js",
+    "static/css/2.fbeba37a.chunk.css",
+    "static/js/2.f70f9bd1.chunk.js",
+    "static/css/main.da19f761.chunk.css",
+    "static/js/main.ed2bbf1f.chunk.js"
+  ]
 }
