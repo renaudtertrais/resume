@@ -23,7 +23,7 @@ HeaderLink.propTypes = {
   icon: PropTypes.string.isRequired,
 };
 
-const Header = ({ columns }) => {
+const Header = ({ columns, experiences }) => {
   const now = moment();
   const birthday = moment('06/03/1988', 'DD/MM/YYYY');
   const age = moment.duration(now.valueOf() - birthday.valueOf()).years();
@@ -32,7 +32,11 @@ const Header = ({ columns }) => {
     <header className="Header">
       <div className="Header__banner">
         <div className="Header__image-container">
-          <img className="Header__image" src="assets/renaud-tertrais.jpg" alt="" />
+          <img
+            className="Header__image"
+            src={require('../../assets/renaud-tertrais.jpg')}
+            alt="Renaud TERTRAIS"
+          />
         </div>
         <div>
           <h2 className="Header__name">
@@ -40,7 +44,9 @@ const Header = ({ columns }) => {
             <span className="Header__age"> - {age} years old</span>
           </h2>
           <h1 className="Header__function">
-            Lead <span className="Header__function-alt">Frontend</span> Developer
+            {/* Lead <span className="Header__function-alt">Frontend</span>{" "}
+            Developer */}
+            {experiences[0].job}
           </h1>
         </div>
       </div>

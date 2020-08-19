@@ -1,21 +1,24 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
+import { getStackImg } from "../../helpers";
 
-import './Stack.scss';
+import "./Stack.scss";
 
-const getLogoName = name => {
+const getLogoName = (name) => {
   const differentName = name.match(/\((.+)\)$/);
-  return differentName ? differentName[1] : name.toLowerCase().replace(' ', '-');
+  return differentName
+    ? differentName[1]
+    : name.toLowerCase().replace(" ", "-");
 };
 
-const getStackTitle = name => name.replace(/ *\(.+\)$/, '');
+const getStackTitle = (name) => name.replace(/ *\(.+\)$/, "");
 
-const renderStackItem = name => {
+const renderStackItem = (name) => {
   const logoName = getLogoName(name);
   const title = getStackTitle(name);
   return (
     <li key={logoName} className="Stack__item">
-      <img className="Stack__image" src={`assets/logos/${logoName}.svg`} alt="" />
+      <img className="Stack__image" src={getStackImg(logoName)} alt={title} />
       {title}
     </li>
   );
@@ -34,7 +37,7 @@ const Stack = ({ current, regular, casual }) => (
   </section>
 );
 
-Stack.displayName = 'Stack';
+Stack.displayName = "Stack";
 
 Stack.propTypes = {
   stack: PropTypes.arrayOf(PropTypes.string).isRequired,

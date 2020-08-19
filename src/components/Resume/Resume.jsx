@@ -13,7 +13,7 @@ import './Resume.scss';
 
 const Resume = props => (
   <div className="Resume">
-    <Header {...props.header} />
+    <Header {...props.header} {...props.experiences} />
 
     <h2 className="Resume__section-title">
       <span>Skills</span>

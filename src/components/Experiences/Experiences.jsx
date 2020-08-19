@@ -2,12 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Markdown from '../Markdown';
-import { getPeriod, getDuration } from '../../helpers';
+import { getPeriod, getDuration, getStackImg } from '../../helpers';
 import './Experiences.scss';
 
 const renderStackItem = name => (
   <li className="Experience__stack-item" key={name}>
-    <img className="Experience__stack-image" src={`assets/logos/${name}.svg`} alt="" />
+    <img
+      className="Experience__stack-image"
+      src={getStackImg(name)}
+      alt={name}
+    />
   </li>
 );
 
