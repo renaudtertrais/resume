@@ -6,7 +6,7 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "font-awesome": "^4.7.0",
-    "marked": "^1.1.1",
+    "marked": "^4.0.10",
     "moment": "^2.27.0",
     "prop-types": "^15.7.1",
     "react": "^16.13.1",
